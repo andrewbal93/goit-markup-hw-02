@@ -1,0 +1,67 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+ul li{
+    list-style-type: none;
+    /* display: inline-block; */
+}
+
+.logo{
+    font-family: Raleway, serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+    color: currentColor;
+    text-transform: uppercase;
+}
+
+a,
+address{
+    text-decoration: none;
+    font-style: normal;
+}
+
+.logo-web{
+    color: #4D5AE5;
+}
+
+header{
+    background-color: #E7E9FC;
+    color: #2E2F42;
+}
+
+footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.nav-btn a{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+}
+
+.contacts a {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #434455;
+}
+
+.projects img{
+    height: 300px;
+    width: 360px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
