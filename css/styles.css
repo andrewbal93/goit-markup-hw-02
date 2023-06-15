@@ -47,6 +47,10 @@
      color: var(--navy-blue)
  }
 
+ .sct{
+    background-color: #2e2f42;
+ }
+
  header {
      background-color: var(--cornflower);
  }
