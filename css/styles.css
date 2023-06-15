@@ -33,8 +33,12 @@ address{
     font-style: normal;
 }
 
-.logo-web{
-    color: var(--iris);
+.studio-light{
+    color: #F4F4FD;
+}
+
+.studio-dark {
+    color: var(--navy-blue)
 }
 
 header{
