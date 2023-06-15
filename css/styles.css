@@ -1,4 +1,4 @@
-:root{
+:root {
     --navy-blue: #2E2F42;
     --cornflower: #E7E9FC;
     --iris: #4D5AE5;
@@ -17,13 +17,13 @@ ul li{
 }
 
 .logo{
-    font-family: Raleway, serif;
+    font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 800;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
-    color: currentColor;
+    color: #4d5ae5;
     text-transform: uppercase;
 }
 
