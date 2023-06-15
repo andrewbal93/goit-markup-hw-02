@@ -1,99 +1,103 @@
-:root {
-    --navy-blue: #2E2F42;
-    --cornflower: #E7E9FC;
-    --iris: #4D5AE5;
-    --slate: #434455;
-}
+ :root {
+     --navy-blue: #2E2F42;
+     --cornflower: #E7E9FC;
+     --iris: #4D5AE5;
+     --slate: #434455;
+ }
 
-body{
-    font-family: Roboto, sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
+ body {
+     font-family: Roboto, sans-serif;
+     color: #434455;
+     background-color: #FFFFFF;
+ }
 
-.list{
-    list-style: none;
-}
+ ul li {
+     list-style-type: none;
+ }
 
-.link{
-    text-decoration: none
-}
+ .list {
+     list-style: none;
+ }
 
-.logo{
-    font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-    color: #4d5ae5;
-    text-transform: uppercase;
-}
+ .link {
+     text-decoration: none
+ }
 
-a,
-address{
-    text-decoration: none;
-    font-style: normal;
-}
+ .logo {
+     font-family: "Raleway", sans-serif;
+     font-size: 18px;
+     font-weight: 800;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     color: #4d5ae5;
+     text-transform: uppercase;
+ }
 
-.studio-light{
-    color: #F4F4FD;
-}
+ a,
+ address {
+     text-decoration: none;
+     font-style: normal;
+ }
 
-.studio-dark {
-    color: var(--navy-blue)
-}
+ .studio-light {
+     color: #F4F4FD;
+ }
 
-header{
-    background-color: var(--cornflower);
-}
+ .studio-dark {
+     color: var(--navy-blue)
+ }
 
-footer{
-    background-color: var(--navy-blue);
-    color: #F4F4FD;
-}
+ header {
+     background-color: var(--cornflower);
+ }
 
-.nav-btn a,
-.nav-btn1,
-.nav-btn2,
-.nav-btn3{
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
+ footer {
+     background-color: var(--navy-blue);
+     color: #F4F4FD;
+ }
 
-.nav-btn1 :hover,
-.nav-btn2 :hover,
-.nav-btn3 :hover,
-.nav-btn1 :focus,
-.nav-btn2 :focus,
-.nav-btn3 :focus{
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 1.17;
-        letter-spacing: 0.02em;
-        color: #404bbf;
-}
+ .nav-btn a,
+ .nav-btn1,
+ .nav-btn2,
+ .nav-btn3 {
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+ }
 
-.contacts a {
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.17;
-        letter-spacing: 0.02em;
-        color: var(--slate);
-}
+ .nav-btn1 :hover,
+ .nav-btn2 :hover,
+ .nav-btn3 :hover,
+ .nav-btn1 :focus,
+ .nav-btn2 :focus,
+ .nav-btn3 :focus {
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 1.17;
+     letter-spacing: 0.02em;
+     color: #404bbf;
+ }
 
-.contacts a:hover,
-.contacts a:active,
-.contacts a:focus{
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: var(--iris);
-}
+ .contacts a {
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.17;
+     letter-spacing: 0.02em;
+     color: var(--slate);
+ }
+
+ .contacts a:hover,
+ .contacts a:active,
+ .contacts a:focus {
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.17;
+     letter-spacing: 0.02em;
+     color: var(--iris);
+ }
