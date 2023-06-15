@@ -1,5 +1,13 @@
+:root{
+    --navy-blue: #2E2F42;
+    --cornflower: #E7E9FC;
+    --iris: #4D5AE5;
+    --slate: #434455;
+}
+
 body{
     font-family: Roboto, sans-serif;
+    color: #2E2F42;
 }
 
 ul li{
@@ -25,16 +33,15 @@ address{
 }
 
 .logo-web{
-    color: #4D5AE5;
+    color: var(--iris);
 }
 
 header{
-    background-color: #E7E9FC;
-    color: #2E2F42;
+    background-color: var(--cornflower);
 }
 
 footer{
-    background-color: #2E2F42;
+    background-color: var(--navy-blue);
     color: #F4F4FD;
 }
 
@@ -45,7 +52,19 @@ footer{
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
-        color: #2E2F42;
+        color: currentColor;
+}
+
+.nav-btn a:hover,
+.nav-btn a:active,
+.nav-btn a:focus{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--iris);
 }
 
 .contacts a {
@@ -55,13 +74,22 @@ footer{
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
-        color: #434455;
+        color: var(--slate);
+}
+
+.contacts a:hover,
+.contacts a:active,
+.contacts a:focus{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--iris);
 }
 
 .projects img{
     height: 300px;
     width: 360px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
 }
