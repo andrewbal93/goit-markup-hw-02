@@ -15,6 +15,10 @@ ul li{
     list-style-type: none;
 }
 
+.list{
+    list-style: none;
+}
+
 .logo{
     font-family: "Raleway", sans-serif;
         font-size: 18px;
