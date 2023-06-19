@@ -3,6 +3,7 @@
      --cornflower: #E7E9FC;
      --iris: #4D5AE5;
      --slate: #434455;
+     --prgrf: #F4F4FD;
  }
 
  body {
@@ -113,16 +114,22 @@
 
  .sct-three-list{
     background-color: #FFFFFF;
-    
+
  }
 
  header {
      background-color: var(--cornflower);
  }
 
- footer {
+.footer-sct {
      background-color: var(--navy-blue);
      color: #F4F4FD;
+ }
+
+ .footer-prgrf{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--prgrf);
  }
 
  .nav-btn{
