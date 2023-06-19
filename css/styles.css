@@ -75,7 +75,7 @@
     background-color: #404BBF;
  }
 
- .sct-one-ttl_one{
+ .sct-one-ttl{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -83,8 +83,10 @@
     color: var(--navy-blue);
  }
 
- .sct-one-prgrf_one{
-    
+ .sct-one-prgrf{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
  }
 
  header {
