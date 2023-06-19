@@ -47,7 +47,7 @@
      color: var(--navy-blue)
  }
 
- .sct-one{
+ .sct-hero{
     background-color: #2e2f42;
  }
 
@@ -59,7 +59,7 @@
     color: #ffffff;
  }
 
- .sct-one-btn{
+ .sct-hero-btn{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -70,9 +70,17 @@
     cursor: pointer;
  }
 
- .sct-one-btn:hover,
- .sct-one-btn:focus{
+ .sct-hero-btn:hover,
+ .sct-hero-btn:focus{
     background-color: #404BBF;
+ }
+
+ .sct-one-ttl{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
  }
 
  header {
