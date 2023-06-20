@@ -4,79 +4,71 @@
      --iris: #4D5AE5;
      --slate: #434455;
      --prgrf: #F4F4FD;
+     --white: #FFFFFF;
+     --darkblue: #404BBF;
  }
 
  body {
      font-family: Roboto, sans-serif;
-     color: #434455;
-     background-color: #FFFFFF;
+     color: var(--slate);
+     background-color: var(--white);
  }
 
- ul li {
-     list-style-type: none;
- }
-
- .list {
+.list {
      list-style: none;
  }
 
- .link {
+.link {
      text-decoration: none
  }
 
- .logo {
+.logo {
      font-family: "Raleway", sans-serif;
      font-size: 18px;
      font-weight: 800;
      line-height: 1.17;
      letter-spacing: 0.03em;
-     color: #4d5ae5;
+     color: var(--iris);
      text-transform: uppercase;
  }
 
- a,
- address {
-     text-decoration: none;
-     font-style: normal;
+.studio-light {
+     color: var(--prgrf);
  }
 
- .studio-light {
-     color: #F4F4FD;
- }
-
- .studio-dark {
+.studio-dark {
      color: var(--navy-blue)
  }
 
- .sct-hero{
-    background-color: #2e2f42;
+.sct-hero{
+    background-color: var(--navy-blue);
  }
 
- .sct-hero-title{
+.sct-hero-title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--white);
  }
 
- .sct-hero-btn{
-    background-color: #4D5AE5;
+.sct-hero-btn{
+    background-color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--white);
     cursor: pointer;
  }
 
- .sct-hero-btn:hover,
- .sct-hero-btn:focus{
-    background-color: #404BBF;
+.sct-hero-btn:hover,
+.sct-hero-btn:focus{
+    background-color: var(--darkblue);
  }
 
- .sct-one-ttl{
+.sct-one-ttl{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -84,13 +76,13 @@
     color: var(--navy-blue);
  }
 
- .sct-one-prgrf{
+.sct-one-prgrf{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
  }
 
- .sct-two-ttl{
+.sct-two-ttl{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -99,11 +91,11 @@
     color: var(--navy-blue);
  }
 
- .sct-three{
-    background-color: #F4F4FD; 
+.sct-three{
+    background-color: var(--prgrf); 
  }
 
- .sct-three-ttl{
+.sct-three-ttl{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -112,55 +104,48 @@
     color: var(--navy-blue);
  }
 
- .sct-three-list{
-    background-color: #FFFFFF;
-
- }
-
- header {
-     background-color: var(--cornflower);
+.sct-three-list{
+    background-color: var(--white);
  }
 
 .footer-sct {
      background-color: var(--navy-blue);
-     color: #F4F4FD;
+     color: var(--prgrf);
  }
 
- .footer-prgrf{
+.footer-prgrf{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--prgrf);
  }
 
- .nav-btn{
-     font-family: Roboto;
+.nav-btn{
      font-size: 16px;
      font-weight: 500;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #2e2f42;
+     color: var(--navy-blue);
  }
 
- .nav-btn:hover,
- .nav-btn:focus {
-     color: #404bbf;
+.nav-btn:hover,
+.nav-btn:focus {
+     color: var(--darkblue);
  }
 
- .contact {
-     font-family: Roboto;
+.contact {
      font-size: 16px;
-     font-weight: 400;
      line-height: 1.5;
      letter-spacing: 0.02em;
+     font-style: normal;
      color: var(--slate);
  }
 
- .contact:hover,
- .contact:focus {
-     color: #404bbf;
+.contact:hover,
+.contact:focus {
+     color: var(--darkblue);
  }
 
- .filter-btn{
+.filter-btn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -171,8 +156,8 @@
     cursor: pointer;
  }
 
- .filter-btn:hover,
- .filter-btn:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+.filter-btn:hover,
+.filter-btn:focus{
+    color: var(--white);
+    background-color: var(--darkblue);
  }
